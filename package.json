@@ -1,25 +1,22 @@
 {
-    "name": "walnut",
-    "description": "Check versions in package.json against npmjs latest versions",
-    "main": "./lib/walnut",
-    "author": "Alex Bosworth",
-    "version": "0.0.2",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/alexbosworth/walnut.git"
-    },
-    "bugs": {
-        "url": "https://github.com/alexbosworth/walnut/issues"
-    },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "https://github.com/alexbosworth/walnut/raw/master/LICENSE"
-        }
-    ],
-    "dependencies": {
-        "underscore": "1.4.4",
-        "async": "0.2.9",
-        "request": "2.21.0"
-    }
+  "author": "Alex Bosworth",
+  "bugs": {
+    "url": "https://github.com/alexbosworth/walnut/issues"
+  },
+  "dependencies": {
+    "async": "2.6.0",
+    "package-json": "4.0.1"
+  },
+  "description": "Check versions in package.json against npmjs latest versions",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/alexbosworth/walnut/raw/master/LICENSE"
+  }],
+  "main": "./lib/walnut",
+  "name": "walnut",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexbosworth/walnut.git"
+  },
+  "version": "0.0.3"
 }
