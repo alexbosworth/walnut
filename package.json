@@ -4,8 +4,8 @@
     "url": "https://github.com/alexbosworth/walnut/issues"
   },
   "dependencies": {
-    "async": "2.6.0",
-    "package-json": "4.0.1"
+    "async": "2.6.1",
+    "package-json": "5.0.0"
   },
   "description": "Check versions in package.json against npmjs latest versions",
   "licenses": [{
@@ -18,5 +18,5 @@
     "type": "git",
     "url": "https://github.com/alexbosworth/walnut.git"
   },
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
